@@ -4,9 +4,6 @@
 # # # # # # # # # # #
 name: Padavan CI RM2100
 on: 
-  release:
-    types: [published]
-
   push:
     branches: 
       - master
