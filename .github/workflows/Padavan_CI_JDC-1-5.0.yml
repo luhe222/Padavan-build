@@ -4,16 +4,9 @@
 # # # # # # # # # # #
 name: Padavan CI JDC-1-5.0
 on: 
-  release:
-    types: [published]
-
   push:
     branches: 
       - master
-
-  schedule:
-    - cron: 0 19 * * *
-  
   watch:
     types: [started]
 env:
