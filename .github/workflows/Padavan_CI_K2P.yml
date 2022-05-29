@@ -4,8 +4,6 @@
 # # # # # # # # # # #
 name: Padavan CI K2P
 on: 
-  release:
-    types: [published]
   push:
     branches: 
       - master
