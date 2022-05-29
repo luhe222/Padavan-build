@@ -4,16 +4,9 @@
 # # # # # # # # # # #
 name: Padavan CI NEWIFI3
 on: 
-  release:
-    types: [published]
-
   push:
     branches: 
       - master
-
-  schedule:
-    - cron: 0 19 * * *
-  
   watch:
     types: [started]
 env:
